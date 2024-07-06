@@ -12,4 +12,3 @@ class PageScraper:
         h.ignore_mailto_links = True
         h.ignore_images = True
         return h.handle(html)
-
